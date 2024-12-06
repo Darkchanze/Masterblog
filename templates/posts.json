@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "author": "John Teig",
+        "title": "First Post",
+        "content": "Test",
+        "username": "Hans"
+    },
+    {
+        "id": 3,
+        "author": "Niggo",
+        "title": "Third Post",
+        "content": "This is my third posts",
+        "username": "Nico"
+    },
+    {
+        "id": 4,
+        "author": "Niggo",
+        "title": "\u00dcberarbeitetttt",
+        "content": "Standard Text angef\u00fcgt habe ich extra",
+        "username": "Nico"
+    }
+]
