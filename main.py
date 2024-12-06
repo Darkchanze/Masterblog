@@ -1,8 +1,8 @@
 from app import app
 from storage_json import PostManager
+import os
 
-
-FILE_PATH = "templates/posts.json"
+FILE_PATH = os.path.join("templates", "posts.json")
 
 
 def main():

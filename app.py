@@ -25,13 +25,13 @@ def add():
     """
     if request.method == 'POST':
         block_posts = load_block_posts()
-        username = request.form.get('username')
+        author = request.form.get('author')
         title = request.form.get('title')
         content = request.form.get('content')
         id = block_posts[-1]["id"] + 1
-        if username != "" and title != "" and content != "":
+        if author != "" and title != "" and content != "":
             block_posts.append({"id": id,
-                                "author": username,
+                                "author": author,
                                 "title": title,
                                 "content": content})
             save_block_posts(block_posts)
@@ -72,7 +72,7 @@ def update(post_id: int):
         block_posts = load_block_posts()
         for post in block_posts:
             if post["id"] == post_id:
-                post['username'] = request.form.get('username')
+                post['author'] = request.form.get('author')
                 post['title'] = request.form.get('title')
                 post['content'] = request.form.get('content')
                 save_block_posts(block_posts)

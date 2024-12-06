@@ -1,23 +1,29 @@
 [
     {
-        "id": 1,
-        "author": "John Teig",
-        "title": "First Post",
-        "content": "Test",
-        "username": "Hans"
-    },
-    {
-        "id": 3,
-        "author": "Niggo",
-        "title": "Third Post",
-        "content": "This is my third posts",
-        "username": "Nico"
-    },
-    {
         "id": 4,
         "author": "Niggo",
         "title": "\u00dcberarbeitetttt",
         "content": "Standard Text angef\u00fcgt habe ich extra",
-        "username": "Nico"
+        "username": "Nicoo"
+    },
+    {
+        "id": 5,
+        "author": "test",
+        "title": "username?",
+        "content": "hund",
+        "username": "was das?"
+    },
+    {
+        "id": 6,
+        "author": "username",
+        "title": "titlee",
+        "content": "contentt",
+        "username": "username"
+    },
+    {
+        "id": 7,
+        "author": "username1",
+        "title": "title1",
+        "content": "content1"
     }
 ]
